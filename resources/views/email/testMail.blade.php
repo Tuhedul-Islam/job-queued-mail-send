@@ -1,4 +1,17 @@
-<!DOCTYPE html>
+@component('mail::message')
+    # Introduction
+
+    The body of your message.
+
+    @component('mail::button', ['url' => ''])
+        Button Text
+    @endcomponent
+
+    Thanks,<br>
+    {{ config('app.name') }}
+@endcomponent
+
+{{--<!DOCTYPE html>
 <html>
 <head>
     <title>How to send mail using queue in Laravel</title>
@@ -18,21 +31,4 @@
     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 <strong>Thank you Sir. :)</strong>
 </body>
-</html>
-
-
-
-
-
-{{--@component('mail::message')
-# Introduction
-
-The body of your message.
-
-@component('mail::button', ['url' => ''])
-Button Text
-@endcomponent
-
-Thanks,<br>
-{{ config('app.name') }}
-@endcomponent--}}
+</html>--}}

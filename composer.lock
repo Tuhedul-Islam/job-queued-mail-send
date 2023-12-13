@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c61ff82cbf0142a401a48a8161e1595a",
+    "content-hash": "0c9c75a2b1cc839588ca84a8c104891c",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1733,6 +1733,65 @@
                 }
             ],
             "time": "2023-10-17T14:13:20+00:00"
+        },
+        {
+            "name": "lupennat/laravel-env-enc",
+            "version": "v1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Lupennat/laravel-env-enc.git",
+                "reference": "09c228d1cb017a03ea7ab54d22053b0ff7fa71cc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Lupennat/laravel-env-enc/zipball/09c228d1cb017a03ea7ab54d22053b0ff7fa71cc",
+                "reference": "09c228d1cb017a03ea7ab54d22053b0ff7fa71cc",
+                "shasum": ""
+            },
+            "require": {
+                "illuminate/console": "^5.5 || ^6.0 || ^7.0 || ^8.0 || ^9.0 || ^10.0",
+                "illuminate/encryption": "^5.5 || ^6.0 || ^7.0 || ^8.0 || ^9.0 || ^10.0",
+                "illuminate/support": "^5.5 || ^6.0 || ^7.0 || ^8.0 || ^9.0 || ^10.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Lupennat\\LaravelEnvEnc\\LaravelEnvEncProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Lupennat\\LaravelEnvEnc\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Lupennat",
+                    "email": "claudio.pennati@gmail.com",
+                    "role": "Author"
+                }
+            ],
+            "description": "encrypt/decrypt laravel .env",
+            "homepage": "https://github.com/Lupennat/laravel-env-enc",
+            "keywords": [
+                "decrypt",
+                "dim",
+                "encrypt",
+                "env",
+                "hide",
+                "laravel"
+            ],
+            "support": {
+                "issues": "https://github.com/Lupennat/laravel-env-enc/issues",
+                "source": "https://github.com/Lupennat/laravel-env-enc/tree/v1.0.2"
+            },
+            "time": "2023-10-09T21:34:37+00:00"
         },
         {
             "name": "monolog/monolog",

@@ -2,8 +2,13 @@
 2. make a laravel mail with markdown [php artisan make:mail SendEmailTest --markdown=eamail.testMail]
 3. make a job [php artisan make:job SendEmailJob]
 4. Listen the job in console [php artisan queue:listen]
+5. dispatch the job [dispatch(new App\Jobs\SendEmailJob($details))]
 
 NB: Used app password [generate a app & password after login to the gmail].
 this generated password used in env[MAIL_PASSWORD=app_password].
 
-NB: Not used [Allow Less secure app]
+NB: Not used [Allow Less secure app].
+
+Encryption package and key:
+key=      lCh02wDXTGN8/8V4CBYQoTi7c0FgeJlrNDzX/3LeUM0=
+package=  https://packagist.org/packages/lupennat/laravel-env-enc

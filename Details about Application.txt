@@ -8,6 +8,7 @@ NB: Used app password [generate a app & password after login to the gmail].
 this generated password used in env[MAIL_PASSWORD=app_password].
 
 NB: Not used [Allow Less secure app].
+NB: QUEUE_CONNECTION=database
 
 Encryption package and key:
 key=      lCh02wDXTGN8/8V4CBYQoTi7c0FgeJlrNDzX/3LeUM0=

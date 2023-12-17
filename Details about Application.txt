@@ -11,5 +11,5 @@ NB: Not used [Allow Less secure app].
 NB: QUEUE_CONNECTION=database
 
 Encryption package and key:
-key=      lCh02wDXTGN8/8V4CBYQoTi7c0FgeJlrNDzX/3LeUM0=
+key=      3LeUM0ll05co=lCh02wDXTGN8/8V4CBYQoTi7c0FgeJlrNDzX/3LeUM0==NOT05co3LeUM0
 package=  https://packagist.org/packages/lupennat/laravel-env-enc
